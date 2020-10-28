@@ -1,0 +1,21 @@
+{
+  "name": "alex-kalanis/pager",
+  "description": "Shareable pager - basic interfaces",
+  "keywords": [],
+  "license": "BSD 3-Clause",
+  "type": "project",
+  "require": {
+    "php": ">=7.2.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Pager\\": "src/"
+    }
+  },
+  "scripts": {
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
