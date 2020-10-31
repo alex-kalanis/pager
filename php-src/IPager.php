@@ -36,6 +36,19 @@ interface IPager
     public function getActualPage(): int;
 
     /**
+     * Set limit of items on one page
+     * @param int $limit
+     * @return $this
+     */
+    public function setLimit(int $limit): self;
+
+    /**
+     * Returns limit of items on one page
+     * @return int
+     */
+    public function getLimit(): int;
+
+    /**
      * Returns calculated offset
      * @return int
      */
@@ -53,17 +66,4 @@ interface IPager
      * @return bool
      */
     public function pageExists(int $i): bool;
-
-    /**
-     * Set limit of items on one page
-     * @param int $limit
-     * @return $this
-     */
-    public function setLimit($limit): self;
-
-    /**
-     * Returns limit of items on one page
-     * @return int
-     */
-    public function getLimit(): int;
 }
