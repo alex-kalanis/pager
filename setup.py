@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-from kw_upload import __version__ as version
+from kw_pager import __version__ as version
 
 with open("README.md", "r") as fh:
     long_desc = fh.read()
