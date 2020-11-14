@@ -3,7 +3,7 @@
 namespace Pager;
 
 
-class BasicPager implements IPager
+class BasicPager implements Interfaces\IPager
 {
     /** @var int */
     protected $maxResults = 0;
@@ -12,7 +12,7 @@ class BasicPager implements IPager
     /** @var int */
     protected $limitPerPage = 0;
 
-    public function setMaxResults(int $maxResults): IPager
+    public function setMaxResults(int $maxResults): Interfaces\IPager
     {
         $this->maxResults = $maxResults;
         return $this;
@@ -23,7 +23,7 @@ class BasicPager implements IPager
         return $this->maxResults;
     }
 
-    public function setActualPage(int $page): IPager
+    public function setActualPage(int $page): Interfaces\IPager
     {
         $this->actualPage = $page;
         return $this;
@@ -34,7 +34,7 @@ class BasicPager implements IPager
         return $this->actualPage;
     }
 
-    public function setLimit(int $limit): IPager
+    public function setLimit(int $limit): Interfaces\IPager
     {
         $this->limitPerPage = $limit;
         return $this;

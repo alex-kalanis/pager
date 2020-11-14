@@ -1,5 +1,6 @@
 from kw_tests.common_class import CommonTestClass
-from kw_pager.input_pager import DefaultSettings, IActualInput, InputPager
+from kw_pager.input_pager import DefaultSettings, InputPager
+from kw_pager.interfaces import IActualInput
 from kw_pager.pager import BasicPager
 
 

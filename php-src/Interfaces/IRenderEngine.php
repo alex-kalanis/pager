@@ -1,11 +1,11 @@
 <?php
 
-namespace Pager;
+namespace Pager\Interfaces;
 
 /**
  * Interface IRenderEngine
- * How to display
- * @package Pager
+ * How to display result
+ * @package Pager\Interfaces
  */
 interface IRenderEngine
 {

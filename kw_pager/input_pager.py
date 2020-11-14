@@ -2,38 +2,8 @@
 Classes and interfaces for using this pager with external input
 """
 
+from .interfaces import IActualInput, ISettings
 from .pager import BasicPager
-
-
-class IActualInput:
-    """
-     * Info from inputs on which page we are
-    """
-
-    def get_actual_page(self) -> int:
-        """
-         * Returns current page number
-         * @return int
-        """
-        raise NotImplementedError('TBI')
-
-
-class ISettings:
-    """
-     * Default settings for paging through records
-    """
-
-    def get_max_results(self) -> int:
-        """
-         * Returns maximum available results for paging on following objects
-        """
-        raise NotImplementedError('TBI')
-
-    def get_limit(self) -> int:
-        """
-         * Returns limit of items on one page
-        """
-        raise NotImplementedError('TBI')
 
 
 class DefaultSettings(ISettings):

@@ -1,11 +1,11 @@
 <?php
 
-namespace Pager;
+namespace Pager\Interfaces;
 
 /**
  * Interface IPager
- *
- * @package Pager
+ * @package Pager\Interfaces
+ * What you need to know about pager
  */
 interface IPager
 {

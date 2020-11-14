@@ -4,7 +4,7 @@ namespace Pager;
 
 
 
-class DefaultSettings implements ISettings
+class DefaultSettings implements Interfaces\ISettings
 {
     protected $maxResults = 0;
     protected $limitPerPage = 0;

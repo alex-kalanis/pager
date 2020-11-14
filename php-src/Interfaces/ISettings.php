@@ -1,11 +1,11 @@
 <?php
 
-namespace Pager;
+namespace Pager\Interfaces;
 
 
 /**
  * Interface ISettings
- * @package Pager
+ * @package Pager\Interfaces
  * Default settings for paging through records
  */
 interface ISettings

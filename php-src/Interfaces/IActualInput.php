@@ -1,11 +1,11 @@
 <?php
 
-namespace Pager;
+namespace Pager\Interfaces;
 
 
 /**
  * Interface IActualPage
- * @package Pager
+ * @package Pager\Interfaces
  * Info from inputs on which page we are
  */
 interface IActualInput

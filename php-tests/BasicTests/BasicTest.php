@@ -5,7 +5,7 @@ namespace BasicTests;
 use CommonTestClass;
 use Pager\BasicPager;
 use Pager\DefaultSettings;
-use Pager\IActualInput;
+use Pager\Interfaces\IActualInput;
 use Pager\InputPager;
 
 class BasicTest extends CommonTestClass
