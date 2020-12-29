@@ -13,12 +13,6 @@ This is the mixed package - contains sever-side implementation in Python and PHP
 {
     "require": {
         "alex-kalanis/pager": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "http",
-            "url":  "https://github.com/alex-kalanis/pager.git"
-        }
     }
 }
 ```
@@ -31,9 +25,8 @@ familiar with composer)
 
 1.) Use your autoloader (if not already done via Composer autoloader)
 
-2.) Connect the "Pager" into your app. When it came necessary
-you can extends every library to comply your use-case; mainly your storage and
-processing.
+2.) Connect the "kalanis\kw_pager" into your app. When it came necessary
+you can extends every library to comply your use-case; mainly your processing.
 
 # Python Installation
 
@@ -48,5 +41,4 @@ into your "setup.py":
 # Python Usage
 
 1.) Connect the "kw_pager\pager" into your app. When it came necessary
-you can extends every library to comply your use-case; mainly your storage and
-processing.
+you can extends every library to comply your use-case; mainly your processing.
