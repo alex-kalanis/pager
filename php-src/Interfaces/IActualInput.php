@@ -1,11 +1,11 @@
 <?php
 
-namespace Pager\Interfaces;
+namespace kalanis\kw_pager\Interfaces;
 
 
 /**
  * Interface IActualPage
- * @package Pager\Interfaces
+ * @package kalanis\kw_pager\Interfaces
  * Info from inputs on which page we are
  */
 interface IActualInput

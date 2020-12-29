@@ -1,5 +1,6 @@
 {
-  "name": "Pager",
+  "author": "kalanis",
+  "name": "kw_pager",
   "description": "Shareable pager - basic interfaces",
   "source": "https://github.com/alex-kalanis/pager",
   "license": "BSD 3-Clause",

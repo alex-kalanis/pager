@@ -1,10 +1,10 @@
 <?php
 
-namespace Pager\Interfaces;
+namespace kalanis\kw_pager\Interfaces;
 
 /**
  * Interface IPager
- * @package Pager\Interfaces
+ * @package kalanis\kw_pager\Interfaces
  * What you need to know about pager
  */
 interface IPager

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pager;
+namespace kalanis\kw_pager;
 
 
 class InputPager extends BasicPager

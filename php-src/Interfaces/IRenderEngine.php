@@ -1,11 +1,11 @@
 <?php
 
-namespace Pager\Interfaces;
+namespace kalanis\kw_pager\Interfaces;
 
 /**
  * Interface IRenderEngine
  * How to display result
- * @package Pager\Interfaces
+ * @package kalanis\kw_pager\Interfaces
  */
 interface IRenderEngine
 {

@@ -1,7 +1,6 @@
 <?php
 
-namespace Pager;
-
+namespace kalanis\kw_pager;
 
 
 class DefaultSettings implements Interfaces\ISettings

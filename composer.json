@@ -1,9 +1,12 @@
 {
   "name": "alex-kalanis/pager",
   "description": "Shareable pager - basic interfaces",
-  "keywords": [],
+  "keywords": [
+    "pager",
+    "interfaces"
+  ],
   "license": "BSD 3-Clause",
-  "type": "project",
+  "type": "library",
   "require": {
     "php": ">=7.2.0"
   },
@@ -11,11 +14,18 @@
   },
   "autoload": {
     "psr-4": {
-      "Pager\\": "php-src/"
+      "kalanis\\kw_pager\\": "php-src/"
     }
   },
   "scripts": {
   },
+  "authors": [
+    {
+      "name": "Petr Plsek",
+      "homepage": "http://www.kalanys.com",
+      "role": "Developer"
+    }
+  ],
   "minimum-stability": "dev",
   "prefer-stable": true
 }

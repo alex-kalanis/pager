@@ -2,16 +2,18 @@
 
 namespace BasicTests;
 
+
 use CommonTestClass;
-use Pager\BasicPager;
-use Pager\DefaultSettings;
-use Pager\Interfaces\IActualInput;
-use Pager\InputPager;
+use kalanis\kw_pager\BasicPager;
+use kalanis\kw_pager\DefaultSettings;
+use kalanis\kw_pager\Interfaces\IActualInput;
+use kalanis\kw_pager\InputPager;
+
 
 class BasicTest extends CommonTestClass
 {
     /**
-     * @throws \Pager\PagerException
+     * @throws \kalanis\kw_pager\PagerException
      */
     public function testBasic(): void
     {
@@ -47,7 +49,7 @@ class BasicTest extends CommonTestClass
     }
 
     /**
-     * @throws \Pager\PagerException
+     * @throws \kalanis\kw_pager\PagerException
      */
     public function testInput(): void
     {

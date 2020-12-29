@@ -1,11 +1,11 @@
 <?php
 
-namespace Pager\Interfaces;
+namespace kalanis\kw_pager\Interfaces;
 
 
 /**
  * Interface ISettings
- * @package Pager\Interfaces
+ * @package kalanis\kw_pager\Interfaces
  * Default settings for paging through records
  */
 interface ISettings
