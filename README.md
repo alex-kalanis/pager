@@ -12,7 +12,7 @@ This is the mixed package - contains sever-side implementation in Python and PHP
 ```
 {
     "require": {
-        "alex-kalanis/pager": "dev-master"
+        "alex-kalanis/pager": "1.0"
     }
 }
 ```
