@@ -12,9 +12,6 @@ use kalanis\kw_pager\InputPager;
 
 class BasicTest extends CommonTestClass
 {
-    /**
-     * @throws \kalanis\kw_pager\PagerException
-     */
     public function testBasic(): void
     {
         $pager = new BasicPager();
@@ -48,9 +45,17 @@ class BasicTest extends CommonTestClass
         $this->assertEquals(40, $pager->getOffset());
     }
 
-    /**
-     * @throws \kalanis\kw_pager\PagerException
-     */
+    public function testResults(): void
+    {
+        $pager = new BasicPager();
+        $pager->setLimit(12);
+        $pager->setMaxResults(0);
+        $pager->setActualPage(7);
+
+        $this->assertEquals(1, $pager->getPagesCount());
+        $this->assertEquals(0, $pager->getOffset());
+    }
+
     public function testInput(): void
     {
         $pager = new InputPager(new DefaultSettings(12, 75), new MockInput());

@@ -41,6 +41,8 @@ class BasicPager(IPager):
             return 0
 
     def get_pages_count(self) -> int:
+        if 0 >= self._max_results:
+            return 1
         last_page_items = self._max_results % self._limit_per_page
         page = int(self._max_results / self._limit_per_page)
         return page + 1 if last_page_items > 0 else page

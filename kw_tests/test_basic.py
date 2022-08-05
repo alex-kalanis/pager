@@ -31,6 +31,13 @@ class BasicTest(CommonTestClass):
         assert 15 == pager.set_limit(5).get_pages_count()
         assert 40 == pager.set_actual_page(9).get_offset()
 
+    def test_results(self):
+        pager = BasicPager()
+        pager.set_max_results(0).set_limit(12).set_actual_page(7)
+
+        assert 1 == pager.get_pages_count()
+        assert 0 == pager.get_offset()
+
     def test_input(self):
         pager = InputPager(DefaultSettings(12, 75), MockInput())
 
